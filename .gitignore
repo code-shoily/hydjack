@@ -1,7 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+# My stuff
 testproject/
+local/
 .ropeproject/
 # C extensions
 *.so
