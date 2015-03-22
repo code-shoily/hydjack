@@ -16,5 +16,3 @@ I know, I'll be working on that! I just learned the damn language! Which is awes
 
 # Follow me?
 [@mafinar](https://twitter.com/mafinar)
-
-
