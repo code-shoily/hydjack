@@ -1,0 +1,8 @@
+Django==1.8c1
+astor==0.4.1
+gnureadline==6.3.3
+hy==0.10.1
+hymagic==0.1
+ipython==3.0.0
+rply==0.7.3
+wsgiref==0.1.2
