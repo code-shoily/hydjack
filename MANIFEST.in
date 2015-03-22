@@ -1,5 +1,6 @@
 include LICENSE
-include README.rst
-recursive-include polls/static *
-recursive-include polls/templates *
+include README.md
+recursive-include hydjack *
+recursive-include hydjack/static *
+recursive-include hydjack/templates *
 recursive-include docs *
