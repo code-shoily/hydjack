@@ -1,10 +1,4 @@
-;; Anaphoric macro to capture errors???
-
 (defmacro-alias [defcmd defcmd/base]
-  "Creates a base command. 
-   The handle signature:
-     `(lambda [self &rest args &kwargs kwargs])`
-   Meta-keys should have `:args`, `:help` and `:settings?`"
   [name meta handle]
   `(do 
      (import [django.core.management.base [BaseCommand]])
@@ -18,10 +12,6 @@
 
 
 (defmacro defcmd/label 
-  "Creates a label command. 
-   The handle signature:
-     `(lambda [self label &kwargs options])` 
-   Meta-keys should have `:args`, `:help` and `:settings?`"
   [name meta handle]
   `(do 
      (import [django.core.management.base [LabelCommand]])
@@ -35,10 +25,6 @@
 
 
 (defmacro defcmd/noargs 
-  "Creates a no-args command. 
-   The handle signature: 
-     `(lambda [self &kwargs options])`
-   Meta-keys should have `:args`, `:help` and `:settings?`"
   [name meta handle]
   `(do 
      (import [django.core.management.base [NoArgsCommand]])
