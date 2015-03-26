@@ -30,7 +30,7 @@
      (import [django.core.management.base [NoArgsCommand]])
      (import [hydjack.util [get-or]])
      (defclass ~name
-       [BaseCommand]
+       [NoArgsCommand]
        [[args (get-or ~meta :args "<arguments placeholder>")]
         [help (get-or  ~meta :help "<help here>")]
         [can-import-settings (get-or ~meta :settings? False)]
