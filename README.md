@@ -11,8 +11,8 @@ I know, I'll be working on that! I just learned the damn language! Which is awes
 
 # Get Hy...
 * [Le Hy Society](https://github.com/hylang)
-* [Documentation] (https://hy.readthedocs.org/en/latest/)
-* [Thank you!] (https://hy.readthedocs.org/en/latest/hacking.html#core-team)
+* [Documentation](https://hy.readthedocs.org/en/latest/)
+* [Thank you!](https://hy.readthedocs.org/en/latest/hacking.html#core-team)
 
 # Follow me?
 [@mafinar](https://twitter.com/mafinar)
